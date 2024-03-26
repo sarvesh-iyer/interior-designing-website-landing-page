@@ -143,7 +143,7 @@ header{
     margin-right: 6rem;
     padding: 20px;
 }
-.form-title{
+.title{
     color: #585757;
     text-align: center;
 }
@@ -156,14 +156,14 @@ header{
     border: none;
     outline: none;
     border-bottom: 1px solid #ccc;
-    font-size: 14px;
+    font-size: 15px;
     padding: 6px;
 
 }   
 .form-textarea{
     resize: none;
     border: 1px solid #ccc;
-    font-size: 14px;
+    font-size: 15px;
     padding: 6px;
     border-radius: 4px;
     outline: none;
@@ -184,3 +184,44 @@ header{
     border-radius: 6px;
     cursor: pointer;
 }
+
+/* Looper styles */
+@keyframes slideAnim {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .looper {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .looper__innerList {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+  }
+  
+  .looper__innerList[data-animate="true"] .looper__listInstance {
+    animation: slideAnim linear infinite;   
+  }
+  
+  .looper__listInstance {
+    display: flex;
+    width: max-content;
+  
+    animation: none;
+  }
+
+  /* Why choose section/component */
+  .looping-section{
+    margin: 40px 0;
+  }
+  .looping-div{
+    margin-top: 16px;
+  }
+  

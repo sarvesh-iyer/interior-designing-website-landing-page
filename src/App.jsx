@@ -1,6 +1,7 @@
 import { Navbar } from './components/Navbar'
 import './assets/styles/style.css'
 import { Hero } from './components/Hero'
+import { ScrollingSection } from './components/ScrollingSection'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
 				<Navbar />
 			</header>
 			<Hero />
+			<ScrollingSection />
 		</>
 	)
 }

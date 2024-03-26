@@ -2,7 +2,7 @@
 export const ContactForm = () => {
     return (
         <form className="form-wrapper">
-            <h2 className="form-title">Contact us</h2>
+            <h2 className="title">Contact us</h2>
             <div className="form-item-row">
                 <input 
                     className="form-inputs"
