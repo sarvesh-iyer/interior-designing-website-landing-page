@@ -1,4 +1,4 @@
-import Logo from '../assets/images/logo.png'
+import Logo from '../assets/images/logo/logo.png'
 
 export const Navbar = () => {
 
@@ -10,8 +10,8 @@ export const Navbar = () => {
         },
         {
             id: 2,
-            name: "Gallary",
-            link: "#gallary"
+            name: "Gallery",
+            link: "#gallery"
         },
         {
             id: 3,
