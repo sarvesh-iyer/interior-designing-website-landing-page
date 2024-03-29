@@ -60,7 +60,7 @@ export const InfiniteLooper = function InfiniteLooper({
   return (
 	<div className="looper" ref={outerRef}>
 		<div className="looper__innerList" ref={innerRef} data-animate="true">
-			{[...Array(looperInstances)].map((_, ind) => (
+			{[...Array((looperInstances <= 0 || looperInstances == Infinity) ? 2 : looperInstances)].map((_, ind) => (
 			<div
 				key={ind}
 				className="looper__listInstance"
