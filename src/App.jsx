@@ -3,6 +3,8 @@ import './assets/styles/style.css'
 import { Hero } from './components/Hero'
 import { ScrollingSection } from './components/ScrollingSection'
 import { HorizontalCarousel } from './components/HorizontalCarousel'
+import { DesignSection } from './components/DesignSection'
+import { Footer } from './components/Footer'
 
 function App() {
 
@@ -11,9 +13,15 @@ function App() {
 			<header>
 				<Navbar />
 			</header>
-			<Hero />
-			<ScrollingSection />
-			<HorizontalCarousel />
+			<main>
+				<Hero />
+				<ScrollingSection />
+				<HorizontalCarousel />
+				<DesignSection />
+			</main>
+			<footer>
+				<Footer />
+			</footer>
 		</>
 	)
 }
