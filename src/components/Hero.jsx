@@ -3,7 +3,7 @@ import { ContactForm } from './ContactForm'
 
 export const Hero = () => {
     return (
-        <section>
+        <section id="hero">
             <div className="hero-wrapper">
                 <img src={TextImg} className="text-img" alt="text-img" />
                 <ContactForm />

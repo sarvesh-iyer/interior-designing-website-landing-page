@@ -23,7 +23,9 @@ export const Navbar = () => {
     return (
         <nav className='navbar-wrapper'>
             <div className="logo">
-                <img src={Logo} alt="" />
+                <a href="#hero">
+                    <img src={Logo} alt="" />
+                </a>
             </div>
             <ul className="nav-list">
                 {menuItems?.map(item => {
