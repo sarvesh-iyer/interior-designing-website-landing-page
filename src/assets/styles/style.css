@@ -21,16 +21,16 @@ time, mark, audio, video {
 	scroll-behavior: smooth;
 }
 /* Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
+/* input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
 	-webkit-appearance: none;
 	margin: 0;
-}
+} */
 
 /* Firefox */
-input[type=number] {
+/* input[type=number] {
 	-moz-appearance: textfield;
-}
+} */
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -57,6 +57,11 @@ table {
 :root{
 	--primary-color: #e71c24;
 	--navbar-width: 16px 0;
+}
+
+/* utility clsses */
+.error-field {
+	border-bottom: 1px solid var(--primary-color) !important;
 }
 
 /* Navbar section */
