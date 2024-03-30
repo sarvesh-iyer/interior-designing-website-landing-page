@@ -1,5 +1,5 @@
 import TextImg from '../assets/images/hero/text-img.png'
-import { ContactForm } from './ContactForm'
+import { ContactForm } from './utility/ContactForm'
 
 export const Hero = () => {
     return (

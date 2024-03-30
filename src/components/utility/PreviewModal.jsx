@@ -15,7 +15,7 @@ export const PreviewModal = (props) => {
 
     return (
         <Rodal 
-            className="rodal-wrapper"
+            className="img-preview-rodal"
             visible={isVisible} 
             onClose={() => setIsVisible(false)}
             closeOnEsc={true}
