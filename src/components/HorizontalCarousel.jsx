@@ -56,13 +56,35 @@ export const HorizontalCarousel = () => {
 
 
     var settings = {
-        // dots: true,
         infinite: true,
         speed: 300,
         slidesToShow: 4,
         slidesToScroll: 4,
         nextArrow: <NextArrow />,
-        prevArrow: <PrevArrow />
+        prevArrow: <PrevArrow />,
+        responsive: [
+            {
+                breakpoint: 950,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            },
+            {
+                breakpoint: 770,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            },
+            {
+                breakpoint: 475,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            },
+        ]
     };
 
     const handleImageClick = (e, item) => {
