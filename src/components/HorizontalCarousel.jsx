@@ -1,11 +1,30 @@
+import { useEffect, useRef, useState } from "react";
 import { gallyList } from "../data/imageGalleryList"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import RightArrow from "../assets/images/general/arrow-right.png"
 import LeftArrow from "../assets/images/general/arrow-left.png"
+import { PreviewModal } from "./utility/PreviewModal";
 
 export const HorizontalCarousel = () => {
+
+    const [showPreviewModal, setShowPreviewModal] = useState(false)
+    const selectedItemRef = useRef({
+        desc: null,
+        image: null
+    })
+
+    // clear the data when modal is closed
+    useEffect(() => {
+        if(!showPreviewModal){
+            selectedItemRef.current = {
+                desc: null,
+                image: null
+            }
+        }    
+    }, [showPreviewModal])
+    
 
     const PrevArrow = (props) =>{
         const { className, style, onClick } = props;
@@ -46,6 +65,13 @@ export const HorizontalCarousel = () => {
         prevArrow: <PrevArrow />
     };
 
+    const handleImageClick = (e, item) => {
+        setShowPreviewModal(true)
+        selectedItemRef.current = {
+            desc: item?.desc,
+            image: item?.img
+        }
+    }
 
     return (
         <section id="gallery" className="gallery-section">
@@ -60,7 +86,7 @@ export const HorizontalCarousel = () => {
                                     {
                                         item?.images?.map(each => {
                                             return (
-                                                <div key={each?.id} className="spacing-div">
+                                                <div key={each?.id} className="spacing-div" onClick={(e) => handleImageClick(e, each)}>
                                                     <div key={each?.id} className="image-container" >
                                                         <img src={each?.img} alt={each?.desc} className="gallery-img" />
                                                         <span className="description-box">{each?.desc}</span>
@@ -76,6 +102,11 @@ export const HorizontalCarousel = () => {
                     })
                 }
             </div>
+            <PreviewModal 
+                isVisible={showPreviewModal}
+                setIsVisible={setShowPreviewModal}
+                selectedItem={selectedItemRef}
+            />
         </section>
     )
 }

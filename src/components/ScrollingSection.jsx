@@ -1,5 +1,4 @@
-import React from 'react'
-import { InfiniteLooper } from './InfiniteLooper'
+import { InfiniteLooper } from './utility/InfiniteLooper'
 import { loopingItemList } from '../data/loopingItemsList'
 
 export const ScrollingSection = () => {
