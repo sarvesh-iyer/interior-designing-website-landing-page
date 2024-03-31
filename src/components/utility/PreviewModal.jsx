@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Rodal from 'rodal';
 import 'rodal/lib/rodal.css';
+import { Switch } from './Switch';
 
 export const PreviewModal = (props) => {
 
@@ -34,16 +35,11 @@ export const PreviewModal = (props) => {
                 </div>
                 <div className="modal-image-container" style={modalImgStyle}>
                 </div>
-                <div className="view-switcher">
-                    <label htmlFor="switcher" className="switcher-label">Show full image</label>
-                    <input 
-                        className="toggle" 
-                        type="checkbox"
-                        id="switcher"
-                        checked={showFullImage}
-                        onChange={() => setShowFullImage(!showFullImage)} 
-                    />  
-                </div>
+                <Switch 
+                    label={"Show full image"}
+                    isChecked={showFullImage}
+                    setIsChecked={setShowFullImage}
+                />
             </div>
         </Rodal>
     )
