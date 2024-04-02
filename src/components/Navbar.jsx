@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import Logo from '../assets/images/logo/logo.png'
+import Logo from '../assets/images/logo/logo.svg'
 import HamburgerMenuIcon from '../assets/images/general/hamburger-menu.png'
 import { menuItems } from '../data/navMenuItemList'
 
@@ -30,7 +30,7 @@ export const Navbar = () => {
                     <img src={HamburgerMenuIcon} alt="" />
                 </div>
                 <a href="#hero">
-                    <img src={Logo} alt="" />
+                    <img className="logo-img" src={Logo} alt="" />
                 </a>
                 {showDrpDownMenu && (
                     <span className="hamburger-menu close-icon" onClick={handleMenuOpen}>
