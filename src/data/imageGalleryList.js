@@ -51,32 +51,32 @@ export const gallyList  = [
             {
                 id: 2,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img2
+                img: Img32
             },
             {
                 id: 3,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img3
+                img: Img33
             },
             {
                 id: 4,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img4
+                img: Img24
             },
             {
                 id: 5,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img5
+                img: Img25
             },
             {
                 id: 6,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img6
+                img: Img26
             },
             {
                 id: 7,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img7
+                img: Img38
             },
         ]
     },
@@ -87,17 +87,17 @@ export const gallyList  = [
             {
                 id: 1,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img22
+                img: Img2
             },
             {
                 id: 2,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img23
+                img: Img5
             },
             {
                 id: 3,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img25
+                img: Img6
             },
             {
                 id: 4,
@@ -112,7 +112,7 @@ export const gallyList  = [
             {
                 id: 6,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img32
+                img: Img39
             },
             {
                 id: 7,
@@ -128,22 +128,22 @@ export const gallyList  = [
             {
                 id: 1,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img1
+                img: Img11
             },
             {
                 id: 2,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img2
+                img: Img12
             },
             {
                 id: 3,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img3
+                img: Img13
             },
             {
                 id: 4,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img4
+                img: Img14
             },
             {
                 id: 5,
@@ -153,12 +153,12 @@ export const gallyList  = [
             {
                 id: 6,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img6
+                img: Img16
             },
             {
                 id: 7,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img7
+                img: Img17
             },
         ]
     },
@@ -169,17 +169,17 @@ export const gallyList  = [
             {
                 id: 1,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img1
+                img: Img21
             },
             {
                 id: 2,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img2
+                img: Img22
             },
             {
                 id: 3,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img3
+                img: Img33
             },
             {
                 id: 4,
@@ -189,17 +189,17 @@ export const gallyList  = [
             {
                 id: 5,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img5
+                img: Img16
             },
             {
                 id: 6,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img6
+                img: Img21
             },
             {
                 id: 7,
                 desc: "Calypso Full-Length Entertainment Unit with a Tall Storage Unit",
-                img: Img7
+                img: Img29
             },
         ]
     },
