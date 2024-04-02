@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <div className="footer-wrapper">
             <span className="span-text copyright-text">
-                Copyright © Homevista Decor and Furnishings Private Limited. All rights reserved.
+                Copyright © Interior Harmony.
             </span>
             <div className="contact-info">
                 <div className="contact-info mail-wrapper" style={{marginRight: '30px'}}>
